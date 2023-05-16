@@ -1,9 +1,10 @@
 import "./App.css";
+import CreateAccount from "./components/materialUI/CreateAccount";
 
 function App() {
   return (
     <div className="App">
-      <h1> Create Account</h1>
+      <CreateAccount></CreateAccount>
     </div>
   );
 }
